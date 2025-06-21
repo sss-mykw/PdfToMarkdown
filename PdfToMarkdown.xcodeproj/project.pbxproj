@@ -20,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		69A107682E06C02C00AD071D /* PdfToMarkdown */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PdfToMarkdown; sourceTree = BUILT_PRODUCTS_DIR; };
+		69A5B2682E06C6EC00606DD1 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -46,6 +47,7 @@
 			children = (
 				69A1076A2E06C02C00AD071D /* PdfToMarkdown */,
 				69A107692E06C02C00AD071D /* Products */,
+				69A5B2682E06C6EC00606DD1 /* .gitignore */,
 			);
 			sourceTree = "<group>";
 		};

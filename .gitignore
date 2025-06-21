@@ -1,0 +1,2 @@
+# outputフォルダに出力したファイルは管理対象外にする
+/PdfToMarkdown/output/
