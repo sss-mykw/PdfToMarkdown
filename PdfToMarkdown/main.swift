@@ -104,13 +104,13 @@ guard let pdfDoc = PDFDocument(url: pdfURL) else {
     exit(1)
 }
 
-var markdown = "# PDFから抽出されたテキスト\n\n"
+var markdown = ""
 
 for i in 0..<pdfDoc.pageCount {
     guard let page = pdfDoc.page(at: i) else { continue }
-    markdown += "## Page \(i + 1)\n\n"
+    markdown += "# Page \(i + 1)\n"
     markdown += page.string ?? "(空のページ)"
-    markdown += "\n\n---\n\n"
+    markdown += "\n\n\n"
 }
 
 // MARK: - 書き込み
